@@ -1,0 +1,18 @@
+.illum {
+	color: inherit;
+	user-select: none;
+	text-shadow: 0 0 0 rgba(184, 134, 11, 0);
+	transition: color 4s, text-shadow 1s;
+	cursor: pointer;
+}
+
+.illum:hover {
+	color: #F0EAE2;
+	text-shadow: 0 0 10px rgba(184, 134, 11, 1);
+	transition: color 0.15s, text-shadow 0.15s;
+}
+
+.illumination_label {
+	user-select: none;
+	cursor: default;
+}

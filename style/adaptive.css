@@ -1,0 +1,63 @@
+@media (max-width: 700px) {
+	.colored_section {
+		background-attachment: scroll;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: initial;
+	}
+
+	.author {
+		bottom: 100px;
+		font-size: 1em;
+	}
+
+	.summarySection_wrapper {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.summarySection {
+		flex-direction: column;
+	}
+	.aboutMe {
+		width: 90%;
+		margin: auto;
+
+		transform: unset;
+		filter: unset;
+		transition: unset;
+	}
+
+	.summary_title {
+		margin: 40px 0;
+	}
+
+	.serviceCard_content-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media (max-width: 426px) {
+	.summary_sides {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media (orientation: portrait) {
+	.colored_section {
+		background-size: 150vh;
+		background-position: -30vh -20vh;
+	}
+}
+
+@media (orientation: landscape) {
+	.colored_section {
+		background-size: 150vw;
+		background-position: -25vw -10vw;
+	}
+}
