@@ -7,11 +7,13 @@
 
 @font-face {
 	font-family: "Forum";
+	font-display: swap;
 	src: url("../fonts/Forum.ttf");
 }
 
 @font-face {
 	font-family: "Cormorant-Regular";
+	font-display: swap;
 	src: url("../fonts/Cormorant-Regular.ttf");
 }
 
